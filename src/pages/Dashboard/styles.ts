@@ -13,6 +13,26 @@ export const ProductContainer = styled.View`
   flex-direction: row;
 `;
 
+// interface ProductListProps {
+//   id: string;
+//   title: string;
+//   image_url: string;
+//   price: number;
+//   quantity: number;
+// }
+
+// export const ProductList = styled(FlatList).attrs({
+//   numColumns: 2,
+// })`
+// export const ProductList = styled(
+//   FlatList as new () => FlatList<ProductListProps>,
+// ).attrs({
+//   numColumns: 2,
+// })`
+//   flex: 1;
+//   padding: 0 10px;
+// `;
+
 export const ProductList = styled(FlatList).attrs({
   numColumns: 2,
 })`
